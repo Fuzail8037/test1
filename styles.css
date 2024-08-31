@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.header-content h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.header-content h2 {
+    color: #777;
+    margin: 0;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.about-me p,
+.contact-info p,
+.education-background p,
+.languages ul,
+.awards ul,
+.skills ul {
+    margin: 5px 0;
+}
+
+.contact-info p a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.languages ul,
+.awards ul,
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.languages ul li,
+.awards ul li,
+.skills ul li {
+    margin-bottom: 5px;
+}
